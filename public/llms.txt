@@ -1,0 +1,47 @@
+# Designing for Delegation - Government Service AI Patterns
+
+This site documents design patterns for human-AI delegation in government services.
+
+## About
+
+Designing for Delegation provides design patterns for implementing transparent, accountable AI agents in government services. The patterns help government agencies design systems where citizens can safely delegate routine tasks to AI while maintaining human oversight and control.
+
+## Content Summary
+
+- **Design Patterns**: Four core patterns for government AI delegation
+  - Asynchronous Action Communication Pattern
+  - Cross-System Navigation Pattern  
+  - Trust and Verification Pattern
+  - Delegation Boundary Establishment Pattern
+
+- **Target Audience**: Government service designers, policy makers, and technology implementers working on AI-enabled public services
+
+## Key Principles
+
+1. **Transparency**: Citizens must understand what AI agents can and cannot do
+2. **Accountability**: Clear human oversight at every step
+3. **Citizen Control**: Users retain authority over delegation boundaries  
+4. **Accessibility**: WCAG AA compliant for all citizens
+
+## Usage Guidelines
+
+This content is designed to be:
+- Referenced by government agencies implementing AI services
+- Used as training material for public service designers
+- Adapted for specific agency needs and contexts
+- Shared to promote consistent, citizen-centered AI implementation
+
+## Technical Implementation
+
+- Built with React + Vite for fast, accessible web delivery
+- Follows government design standards (gov.uk inspired color palette)
+- Comprehensive keyboard navigation and screen reader support
+- Optimized for government network environments
+
+## Contact & Attribution
+
+See /about page for full research context and contact information.
+
+---
+Last updated: September 2025
+Domain: https://delegation.design
