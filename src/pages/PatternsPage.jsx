@@ -195,10 +195,14 @@ const PatternsPage = () => {
             Start with user research to understand which delegation scenarios matter most to your constituents.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-gov-blue-600 hover:bg-gov-gray-100 font-medium py-3 px-8 rounded-lg transition-colors duration-200 inline-flex items-center">
+            <a 
+              href="/Government Agent Delegation Design Patterns Guide.pdf"
+              download
+              className="bg-white text-gov-blue-600 hover:bg-gov-gray-100 font-medium py-3 px-8 rounded-lg transition-colors duration-200 inline-flex items-center justify-center"
+            >
               Download Pattern Guide
               <ArrowRight className="w-5 h-5 ml-2" />
-            </button>
+            </a>
             <a 
               href="/about" 
               className="border-2 border-white text-white hover:bg-white hover:text-gov-blue-600 font-medium py-3 px-8 rounded-lg transition-colors duration-200"

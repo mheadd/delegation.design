@@ -258,7 +258,7 @@ const AboutPage = () => {
               </div>
               <h3 className="text-lg font-semibold text-gov-gray-900 mb-2">Join the Discussion</h3>
               <a 
-                href="https://github.com/delegation-design" 
+                href="https://github.com/mheadd/delegation.design/discussions" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gov-blue-600 hover:text-gov-blue-700 font-medium inline-flex items-center"
