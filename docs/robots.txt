@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://delegation.design/sitemap.xml
+
+# Government website - encourage crawling for public benefit
+Crawl-delay: 1
+
+# Allow access to all static assets
+Allow: /assets/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.ico
+Allow: /*.woff
+Allow: /*.woff2
+
+# Contact information for this site
+# For questions about delegation design patterns in government services
+# Contact: https://delegation.design/about

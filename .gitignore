@@ -7,6 +7,10 @@ node_modules/
 /build
 /dist
 
+# GitHub Pages deployment folder - DO NOT IGNORE
+# The /docs folder is committed to allow GitHub Pages deployment
+# /docs
+
 # Development
 .DS_Store
 .env.local
