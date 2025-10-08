@@ -49,7 +49,7 @@ const Footer = () => {
                 hello@adhocteam.us
               </a>
               <a 
-                href="https://github.com/delegation.design" 
+                href="https://github.com/mheadd/delegation.design" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center text-sm hover:text-white transition-colors duration-200"
