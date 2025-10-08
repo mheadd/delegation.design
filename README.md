@@ -1,4 +1,4 @@
-# Design Patterns for Government Agent Delegation
+# Design Patterns for Delegation-based Digital Services
 
 A website showcasing design patterns for delegation-based interactions between citizens and government services.
 

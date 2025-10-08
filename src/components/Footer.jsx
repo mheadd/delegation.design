@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Designing for Delegation</h3>
             <p className="text-sm leading-relaxed">
-              Design patterns for government agent delegation, preparing agencies for 
+              Design patterns for delegation-based digital services, preparing agencies for 
               citizen-agent interactions with thoughtful, technology-agnostic approaches.
             </p>
           </div>

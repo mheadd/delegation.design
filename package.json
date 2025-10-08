@@ -1,7 +1,7 @@
 {
   "name": "delegation-design-website",
   "version": "1.0.0",
-  "description": "Design Patterns for Government Agent Delegation",
+  "description": "Design Patterns for Delegation-based Digital Services",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",

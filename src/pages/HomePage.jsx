@@ -57,7 +57,7 @@ const HomePage = () => {
           <div className="text-center max-w-4xl mx-auto">
             <h1 id="hero-heading" className="text-4xl md:text-5xl lg:text-6xl font-bold text-gov-gray-900 mb-6">
               Beyond Self-Service: Design Patterns for 
-              <span className="text-gov-blue-600"> Government Agent Delegation</span>
+              <span className="text-gov-blue-600"> Delegation-based Digital Services</span>
             </h1>
             <p className="text-xl md:text-2xl text-gov-gray-700 mb-8 leading-relaxed">
               Preparing for citizen-agent interactions in government services — 
@@ -91,7 +91,7 @@ const HomePage = () => {
         <div className="container-max">
           <div className="text-center mb-16">
             <h2 id="why-matters-heading" className="text-3xl md:text-4xl font-bold text-gov-gray-900 mb-4">
-              Why Government Agent Delegation Matters
+              Why Delegation-based Digital Services Matter
             </h2>
             <p className="text-lg text-gov-gray-700 max-w-3xl mx-auto">
               Government services often require navigating complex multi-step processes. 

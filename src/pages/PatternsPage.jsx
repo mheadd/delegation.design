@@ -53,7 +53,7 @@ const PatternsPage = () => {
                 <Bot className="w-6 h-6 text-gov-blue-600" />
               </div>
               <h1 className="text-4xl md:text-5xl font-bold text-gov-gray-900">
-                Design Patterns for Government Agent Delegation
+                Design Patterns for Delegation-based Digital Services
               </h1>
             </div>
             <p className="text-xl text-gov-gray-700 mb-8">
