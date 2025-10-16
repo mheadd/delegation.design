@@ -9,6 +9,7 @@ const Navigation = () => {
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'Design Patterns', href: '/patterns' },
+    { name: 'Delegation Candidates', href: '/delegation-candidates' },
     { name: 'About', href: '/about' }
   ]
 
