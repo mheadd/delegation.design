@@ -122,7 +122,7 @@ export default function DelegationCandidatesPage() {
             Government Service Delegation Candidates
           </h1>
           <p className="text-gray-600 mb-4">
-            Mapping government services by burden and frequency to identify optimal candidates for AI agent delegation
+            Mapping government services by burden and frequency to identify potential candidates for AI agent delegation
           </p>
           
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-4">
@@ -131,15 +131,16 @@ export default function DelegationCandidatesPage() {
               <div>
                 <p className="text-blue-900 font-medium mb-1">Reading the Chart</p>
                 <p className="text-blue-800 text-sm">
-                  <strong>Position</strong> indicates delegation potential: upper-left quadrant (high burden, low frequency) shows 
-                  services where delegation is most valuable. <strong>Color</strong> indicates stakes: red = critical consequences 
-                  requiring extensive human oversight, yellow = medium stakes, green = low stakes ideal for AI pilot programs.
+                  <ul>
+                    <li><strong>Position</strong> indicates delegation potential: upper-left quadrant (high burden, low frequency) shows 
+                  services where delegation is most valuable.</li>
+                    <li><strong>Color</strong> indicates stakes: red = critical consequences 
+                  requiring extensive human oversight, yellow = medium stakes, green = low stakes ideal for AI pilot programs.</li>
+                  </ul>
                 </p>
               </div>
             </div>
           </div>
-
-
 
           {/* Legend */}
           <div className="flex flex-wrap gap-6 text-sm">
@@ -189,7 +190,7 @@ export default function DelegationCandidatesPage() {
               }}
             >
               <Label 
-                value="Frequency of Occurrence →" 
+                value="← Frequency of Occurrence →" 
                 position="bottom" 
                 offset={40}
                 style={{ fontSize: '14px', fill: '#374151', fontWeight: 500 }}
@@ -200,9 +201,10 @@ export default function DelegationCandidatesPage() {
               dataKey="burden" 
               name="Burden"
               domain={[0, 10]}
+              ticks={[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
             >
               <Label 
-                value="← Administrative Burden" 
+                value="← Administrative Burden →" 
                 angle={-90} 
                 position="left"
                 offset={40}
@@ -236,7 +238,7 @@ export default function DelegationCandidatesPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
             <h3 className="font-semibold text-amber-900 mb-2">Stakes Determine Implementation Approach</h3>
             <p className="text-sm text-amber-800">
-              <strong className="text-red-600">Red (Critical):</strong> High delegation demand but require extensive human review<br/>
+              <strong className="text-red-600">Red (Critical):</strong> High delegation potential but require extensive human review<br/>
               <strong className="text-yellow-600">Yellow (High):</strong> Good candidates with moderate oversight<br/>
               <strong className="text-orange-500">Orange (Medium):</strong> Balanced automation potential<br/>
               <strong className="text-green-600">Green (Low):</strong> Ideal for early AI pilots with minimal oversight
