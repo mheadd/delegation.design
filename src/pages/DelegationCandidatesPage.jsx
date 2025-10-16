@@ -63,8 +63,8 @@ export default function DelegationCandidatesPage() {
           <p className="text-sm font-medium text-gray-900 mt-1">
             Stakes: <span className={
               data.stakes === 'critical' ? 'text-red-600' :
-              data.stakes === 'high' ? 'text-orange-600' :
-              data.stakes === 'medium' ? 'text-yellow-600' : 'text-green-600'
+              data.stakes === 'high' ? 'text-yellow-600' :
+              data.stakes === 'medium' ? 'text-orange-600' : 'text-green-600'
             }>{stakesLabels[data.stakes]}</span>
           </p>
         </div>
@@ -134,8 +134,7 @@ export default function DelegationCandidatesPage() {
                   <ul>
                     <li><strong>Position</strong> indicates delegation potential: upper-left quadrant (high burden, low frequency) shows 
                   services where delegation is most valuable.</li>
-                    <li><strong>Color</strong> indicates stakes: red = critical consequences 
-                  requiring extensive human oversight, yellow = medium stakes, green = low stakes ideal for AI pilot programs.</li>
+                    <li><strong>Mouse over</strong> each of the dots on the scatterplot to see the details of the service.</li>
                   </ul>
                 </p>
               </div>
