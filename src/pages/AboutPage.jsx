@@ -245,10 +245,10 @@ const AboutPage = () => {
               </div>
               <h3 className="text-lg font-semibold text-gov-gray-900 mb-2">Email Us</h3>
               <a 
-                href="mailto:hello@adhocteam.us" 
+                href="mailto:mheadd@gmail.com" 
                 className="text-gov-blue-600 hover:text-gov-blue-700 font-medium"
               >
-                hello@adhocteam.us
+                mheadd@gmail.com
               </a>
             </div>
 
@@ -274,7 +274,7 @@ const AboutPage = () => {
               </div>
               <h3 className="text-lg font-semibold text-gov-gray-900 mb-2">Read the background</h3>
               <a 
-                href="https://adhoc.team/2025/10/01/designing-for-delegation/" 
+                href="https://civic.io/2025/10/01/designing-for-delegation/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gov-blue-600 hover:text-gov-blue-700 font-medium inline-flex items-center"

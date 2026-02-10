@@ -41,12 +41,12 @@ const Footer = () => {
             <h4 className="text-base font-semibold text-white mb-4">Contact</h4>
             <div className="space-y-2">
               <a 
-                href="mailto:hello@adhocteam.us" 
+                href="mailto:mheadd@gmail.com" 
                 className="flex items-center text-sm hover:text-white transition-colors duration-200"
-                aria-label="Send email to hello@delegation.design"
+                aria-label="Send email to mheadd@gmail.com"
               >
                 <Mail className="w-4 h-4 mr-2" aria-hidden="true" />
-                hello@adhocteam.us
+                mheadd@gmail.com
               </a>
               <a 
                 href="https://github.com/mheadd/delegation.design" 
